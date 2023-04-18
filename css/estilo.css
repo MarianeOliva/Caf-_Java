@@ -1,0 +1,102 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background: linear-gradient(rgb(61, 41, 41), #C3A995);
+    background-attachment: fixed;
+}
+
+figure {
+    background-color: #D6D5C9;
+    width: 320px;
+    margin: 30px auto 30px auto;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 5px 5px 5px 5px #4C362F;
+    font-size: 11pt;
+    font-family: cursive;
+    line-height: 35px;
+    color: black;
+    text-decoration: solid;
+}
+
+img {
+    text-align: center;
+
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+
+figcaption {
+    padding: 10px;
+}
+
+figcaption h1,
+.dist {
+    display: inline-block;
+    width: 49%;
+}
+
+
+figcaption h1 {
+    margin: 0;
+    padding: 0;
+    text-align: justify;
+}
+
+
+.dist img {
+    width: 20px;
+    vertical-align: middle;
+}
+
+.dist {
+    text-align: right;
+    vertical-align: end;
+}
+
+
+.estrelas img {
+    width: 100px;
+}
+
+figcaption h3{
+    text-align: justify;
+}
+
+figcaption p{
+    text-align: center;
+    line-height: 25px;
+}
+
+.dias {
+    padding-top: 10px;
+    text-align: center;
+}
+
+.clock {
+    width: 30px;
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.horario div {
+    display: inline-block;
+    width: 60px;
+
+}
+
+.horario{
+    display: inline-block;
+}
+
+.reserva {
+    text-align: center;
+    color: rgba(0, 0, 0, 0.734);
+    font-size: 17pt;
+}
